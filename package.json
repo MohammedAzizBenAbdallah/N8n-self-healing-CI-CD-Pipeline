@@ -9,5 +9,8 @@
   "scripts": {
     "test": "node test.js",
     "build": "node index.js"
+  },
+  "dependencies": {
+    "express": "^5.2.1"
   }
 }
