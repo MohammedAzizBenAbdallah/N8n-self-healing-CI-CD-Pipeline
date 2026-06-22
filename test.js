@@ -1,6 +1,5 @@
 const express = require('express');
 const app = express();
-const http = require("http")
 // Basic test server setup on port 5000
 
 const options = {
