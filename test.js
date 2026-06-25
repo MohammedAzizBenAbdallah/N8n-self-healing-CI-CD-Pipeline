@@ -1,4 +1,5 @@
 const express = require('express');
+const { TbXxx } = require('react-icons/tb');
 
 // Basic test server setup on port 5000
 
@@ -8,7 +9,7 @@ const options = {
     path: "/",
     method: 'GET'
 }
-xx
+TbXxx
 
 app.get('/', (req, res) => {
 res.status(200).send('OK');
@@ -32,3 +33,5 @@ const server = app.listen(5000, () => {
     })
     req.end()
 })
+
+console.log(this is also an intentional bug)
