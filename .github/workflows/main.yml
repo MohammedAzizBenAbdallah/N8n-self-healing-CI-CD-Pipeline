@@ -37,5 +37,6 @@ jobs:
               "repo": "${{ github.repository }}",
               "branch": "${{ github.ref_name }}",
               "commit": "${{ github.sha }}",
-              "actor": "${{ github.actor }}"
+              "actor": "${{ github.actor }}",
+              "owner": "${{github.owner}}"
             }'
